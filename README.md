@@ -16,4 +16,5 @@ There will be one folder for each day, with the format:
 ## Used languages 
 
 Day 01: `Trebuchet!?` -> **COBOL**
+
 Day 02: `Cube Conundrum` -> **Rust**
