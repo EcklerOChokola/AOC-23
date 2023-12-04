@@ -1,4 +1,5 @@
 import re
+import sys
 
 def part_one(lines, line, num):
   regex = r"(\d+)"
@@ -73,7 +74,10 @@ def part_two(lines, line, num):
   else:
     return 0
 
-with open("input.txt", "r") as input:
+filename = "input.txt"
+if len(sys.argv) > 1:
+  filename = sys.argv[1]
+with open(filename, "r") as input:
   # Initialize global values
 
   lines = input.read().splitlines()

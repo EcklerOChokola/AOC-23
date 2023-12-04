@@ -1,5 +1,6 @@
 use std::fs;
 use std::str;
+use std::env;
 use std::str::FromStr;
 
 struct TurnCounts {
@@ -9,7 +10,11 @@ struct TurnCounts {
 }
 
 fn main() {
-  let input_path = "input.txt";
+  let mut input_path = "input.txt".to_string();
+  let args: Vec<String> = env::args().collect();
+  if args.len() > 1 {
+    input_path = args[1].to_string();
+  }
   let contents = fs::read_to_string(input_path).expect("{input_path} could not be open");
 
   let split = contents.lines();

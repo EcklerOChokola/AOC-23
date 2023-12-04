@@ -1,0 +1,5 @@
+Game 1: 0 blue, 0 red; 0 red, 0 green, 0 blue; 0 green
+Game 2: 0 blue, 0 green; 0 green, 0 blue, 0 red; 0 green, 0 blue
+Game 3: 0 green, 0 blue, 0 red; 0 blue, 0 red, 0 green; 0 green, 0 red
+Game 4: 0 green, 0 red, 0 blue; 0 green, 0 red; 0 green, 0 blue, 0 red
+Game 5: 0 red, 0 blue, 0 green; 0 blue, 0 red, 0 green
