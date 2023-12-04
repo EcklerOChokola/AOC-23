@@ -20,3 +20,4 @@ There will be one folder for each day, with the format:
 | 01  | Trebuchet!? | **COBOL** |
 | 02  | Cube Conundrum | **Rust** |
 | 03  | Gear Ratios | **python** |
+| 04  | Scratchcards | **RockStar** |
