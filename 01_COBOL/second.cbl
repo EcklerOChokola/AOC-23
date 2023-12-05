@@ -1,3 +1,8 @@
+           * To run online on 
+           * https://www.jdoodle.com/execute-cobol-online/
+           * modify the filename at line 14 from 
+           * 'input.txt' to '/uploads/input.txt'
+           * and upload the input.txt file
            identification division.
                program-id. first.
                author. eckler.
