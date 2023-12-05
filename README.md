@@ -31,3 +31,14 @@ A general `test.sh` script at the root of the repository will scan all directori
 | 02  | Cube Conundrum | **Rust** |
 | 03  | Gear Ratios | **python** |
 | 04  | Scratchcards | **RockStar** |
+| 05  | If You Give A Seed A Fertilizer | **Typescript** |
+
+## Warnings
+
+Depending on the input, some days may take a long time to run. I have done everything I could to limit the memory usage for these days to 2 gigs of RAM.
+
+I **strongly** advise not to run these days with the input file if you do not need to.
+
+These days are : 
+
+- Day 05 : If You Give A Seed A Fertilizer
