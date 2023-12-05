@@ -17,7 +17,7 @@ There will be one folder for each day, with the format:
 
 Depending on the language, some days might not run if you do not have the tools installed on your machine. 
 
-On the other hand, I haven't even bothered to try to make somme languages run on my computer, and I have used online tools for them.
+On the other hand, I haven't even bothered to try to make some languages run on my computer, and I have used online tools for them.
 
 Tooling informations can be found in the last column of the table in the [languages](#languages) section. Some tweaks may be needed for some online tools, which will be written on top of the programs.
 
