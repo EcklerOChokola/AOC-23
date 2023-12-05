@@ -25,13 +25,13 @@ A general `test.sh` script at the root of the repository will scan all directori
 
 ## Used languages 
 
-| Day | Title							| Language 			| Tests 				|
-| --- | -----                           | -------- 			| ----- 				|
-| 01  | Trebuchet!?                     | **COBOL** 		| :x: 					|
-| 02  | Cube Conundrum                  | **Rust** 			| :heavy_check_mark: 	|
-| 03  | Gear Ratios                     | **python** 		| :heavy_check_mark: 	|
-| 04  | Scratchcards                	| **RockStar** 		| :x: 					|
-| 05  | If You Give A Seed A Fertilizer | **Typescript** 	| :heavy_check_mark: 	|
+| Day 	| Title								| Language 			| Tests 				|
+| :-: 	| -----                           	| :--------:		| :---: 				|
+| 01  	| Trebuchet!?                     	| **COBOL** 		| :x: 					|
+| 02  	| Cube Conundrum                  	| **Rust** 			| :heavy_check_mark: 	|
+| 03  	| Gear Ratios                     	| **python** 		| :heavy_check_mark: 	|
+| 04  	| Scratchcards                		| **RockStar** 		| :x: 					|
+| 05  	| If You Give A Seed A Fertilizer 	| **Typescript** 	| :heavy_check_mark: 	|
 
 ## Warnings
 
