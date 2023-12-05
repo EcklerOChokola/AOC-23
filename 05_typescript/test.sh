@@ -11,7 +11,7 @@ test () {
     echo "Testing $d"
     local out="not empty"
     { 
-      out=$(cargo run -q $d/$input 2>/dev/null | diff $d/$output -)
+      out=$(bun script.ts $d/$input | diff $d/$output -)
     } || {
       ((errors++))
     }

@@ -20,23 +20,22 @@ type Map = {
 
 let initial_seeds: number[];
 let seeds: number[];
-let seedsRangesFirst: number;
+let seedsRanges: Range[] = [];
 let maps: Map[] = [];
 let index: number = -1;
-let min = Number.MAX_VALUE;
 
 const seedsToSeedsRanges = (values: number[]) => {
   for (let i = 0; i < values.length; i++) {
     if (i%2 == 0) {
-      seedsRangesFirst = values[i]
+      seedsRanges.push({
+        begin: values[i],
+        end: 0,
+        shift: 0
+      })
     } else {
-      for (let j = 0; j < values[i]; j++) {
-        let value = seedsRangesFirst + j;
-        for (let k = 0; k < maps.length; k++) {
-          value = applyMap(maps[k], value);
-        }
-        min = (value - min < 0) ? value : min
-      }
+      let prev = seedsRanges[seedsRanges.length - 1];
+      prev.end = prev.begin + values[i] - 1;
+      seedsRanges[seedsRanges.length - 1] = prev;
     }
   }
 }
@@ -65,6 +64,10 @@ const isInRange = (range: Range, value: number) => {
   return (range.begin <= value) && (range.end >= value);
 }
 
+const isInRanges = (ranges: Range[], value: number) => {
+  return ranges.map((range) => isInRange(range, value)).reduce((prev, curr) => curr || prev, false)
+}
+
 const shiftRange = (range: Range, value: number) => {
   return isInRange(range, value) ? value + range.shift : value;
 }
@@ -75,6 +78,35 @@ const applyMap = (map: Map, value: number) => {
     value = shiftRange(range, value)
   }
   return value
+}
+
+const revertRange = (range: Range): Range => {
+  return {
+    begin: range.begin + range.shift,
+    end: range.end + range.shift,
+    shift: -range.shift
+  }
+}
+
+const revertMap = (map: Map): Map => {
+  return {
+    ranges: map.ranges.map(revertRange)
+  }
+}
+
+const revertMaps = (maps: Map[]): Map[] => {
+  let resultMap = new Array(maps.length);
+  for (let i = 0; i < maps.length; i++) {
+    resultMap[maps.length - i - 1] = revertMap(maps[i]);
+  }
+  return resultMap;
+}
+
+const applyMaps = (maps: Map[], value: number): number => {
+  for(let i = 0; i < maps.length; i++) {
+    value = applyMap(maps[i], value);
+  }
+  return value;
 }
 
 let reader = readline.createInterface(createReadStream(path.join(process.cwd(), filename)))
@@ -95,15 +127,22 @@ reader.on("line", (line: string) => {
   maps[index].ranges.push(range)
 })
 
-reader.on("close", () => {
-  
-  for(let i = 0; i <= index; i++) {
-    seeds = seeds.map((value: number) => applyMap(maps[i], value))
-  }
-  console.log(`Part 1 : ${seeds.sort((a, b) => a - b)[0]}`)
 
-  seedsToSeedsRanges(initial_seeds)
-  console.log(`Part 2 : ${min}`)
+
+reader.on("close", () => {
+  for(let i = 0; i < maps.length; i++) {
+    seeds = seeds.map((value: number) => applyMap(maps[i], value));
+  }
+  console.log(`Part 1 : ${seeds.sort((a, b) => a - b)[0]}`);
+
+  seedsToSeedsRanges(initial_seeds);
+  maps = revertMaps(maps);
+
+  let iterator = 0;
+  while(!isInRanges(seedsRanges, applyMaps(maps, iterator))) {
+    iterator++;
+  }
+  console.log(`Part 2 : ${iterator}`)
 })
 
 export default {}

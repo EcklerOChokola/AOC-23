@@ -25,13 +25,13 @@ A general `test.sh` script at the root of the repository will scan all directori
 
 ## Used languages 
 
-| Day | Title | Language |
-| --- | ----- | -------- |
-| 01  | Trebuchet!? | **COBOL** |
-| 02  | Cube Conundrum | **Rust** |
-| 03  | Gear Ratios | **python** |
-| 04  | Scratchcards | **RockStar** |
-| 05  | If You Give A Seed A Fertilizer | **Typescript** |
+| Day | Title							| Language 			| Tests 				|
+| --- | -----                           | -------- 			| ----- 				|
+| 01  | Trebuchet!?                     | **COBOL** 		| :x: 					|
+| 02  | Cube Conundrum                  | **Rust** 			| :heavy_check_mark: 	|
+| 03  | Gear Ratios                     | **python** 		| :heavy_check_mark: 	|
+| 04  | Scratchcards                	| **RockStar** 		| :x: 					|
+| 05  | If You Give A Seed A Fertilizer | **Typescript** 	| :heavy_check_mark: 	|
 
 ## Warnings
 
@@ -41,4 +41,4 @@ I **strongly** advise not to run these days with the input file if you do not ne
 
 These days are : 
 
-- Day 05 : If You Give A Seed A Fertilizer
+**NONE** *for now ...*
