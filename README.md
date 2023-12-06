@@ -40,6 +40,7 @@ A general `test.sh` script at the root of the repository will scan all directori
 | 03  	| Gear Ratios                     	| **python** 		| :heavy_check_mark: 	| [python3](https://www.python.org/download/releases/3.0/) (on machine) |
 | 04  	| Scratchcards                		| **RockStar** 		| :x: 					| [RockStar](https://codewithrockstar.com/online) (online) |
 | 05  	| If You Give A Seed A Fertilizer 	| **Typescript** 	| :heavy_check_mark: 	| [bun](https://bun.sh/) (on machine) |
+| 06	| Wait For It						| **SWI-Prolog**	| :heavy_check_mark:	| [SWI-Prolog](https://www.swi-prolog.org/Download.html) (on machine) |
 
 ## Warnings
 
