@@ -41,7 +41,7 @@ A general `test.sh` script at the root of the repository will scan all directori
 | 04  	| Scratchcards                		| **RockStar** 		| :x: 					| [RockStar](https://codewithrockstar.com/online) (online) |
 | 05  	| If You Give A Seed A Fertilizer 	| **Typescript** 	| :heavy_check_mark: 	| [bun](https://bun.sh/) (on machine) |
 | 06	| Wait For It						| **SWI-Prolog**	| :heavy_check_mark:	| [SWI-Prolog](https://www.swi-prolog.org/Download.html) (on machine) |
-| 07 	| Camel Cards						| **OCaml**			| :heavy_ckeck_mark:	| [OCaml](https://ocaml.org/) (on machine) |
+| 07 	| Camel Cards						| **OCaml**			| :heavy_check_mark:	| [OCaml](https://ocaml.org/) (on machine) |
 
 ## Warnings
 
