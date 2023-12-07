@@ -41,13 +41,14 @@ A general `test.sh` script at the root of the repository will scan all directori
 | 04  	| Scratchcards                		| **RockStar** 		| :x: 					| [RockStar](https://codewithrockstar.com/online) (online) |
 | 05  	| If You Give A Seed A Fertilizer 	| **Typescript** 	| :heavy_check_mark: 	| [bun](https://bun.sh/) (on machine) |
 | 06	| Wait For It						| **SWI-Prolog**	| :heavy_check_mark:	| [SWI-Prolog](https://www.swi-prolog.org/Download.html) (on machine) |
+| 07 	| Camel Cards						| **OCaml**			| :heavy_ckeck_mark:	| [OCaml](https://ocaml.org/) (on machine) |
 
 ## Warnings
 
-Depending on the input, some days may take a long time to run. I have done everything I could to limit the memory usage for these days to 2 gigs of RAM.
+Depending on the input, some days may take a long time to run (more than 1 minute). I have done everything I could to limit the memory usage for these days to 2 gigs of RAM.
 
 I **strongly** advise not to run these days with the input file if you do not need to.
 
 These days are : 
 
-**NONE** *for now ...*
+- **Day 05** : If You Give A Seed A Fertilizer (for some inputs)
