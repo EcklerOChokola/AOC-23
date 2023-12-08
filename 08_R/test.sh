@@ -6,20 +6,12 @@ test () {
   local successes=0
   local failures=0
 
-  if [ -d "node_modules" ]
-  then
-    : # resume
-  else
-    echo "node_modules not found, installing..."
-    bun i
-  fi
-
   for d in $@
   do
     echo "Testing $d"
     local out="not empty"
     { 
-      out=$(bun script.ts $d/$input | diff $d/$output -)
+      out=$(Rscript --vanilla main.r $d/$input | diff $d/$output -)
     } || {
       ((errors++))
     }

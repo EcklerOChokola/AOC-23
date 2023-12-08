@@ -31,6 +31,8 @@ Each folder that I have implemented tests for will have :
 
 A general `test.sh` script at the root of the repository will scan all directories and execute the test script in it, or will skip it if it can't be found.
 
+By default, [days with long execution](long), are not tested by the main test script. You can enable them with `--all` flag.
+
 ## <a name="languages"></a> Used languages 
 
 | Day 	| Title								| Language 			| Tests 				| Tooling 	|
@@ -42,8 +44,9 @@ A general `test.sh` script at the root of the repository will scan all directori
 | 05  	| If You Give A Seed A Fertilizer 	| **Typescript** 	| :heavy_check_mark: 	| [bun](https://bun.sh/) (on machine) |
 | 06	| Wait For It						| **SWI-Prolog**	| :heavy_check_mark:	| [SWI-Prolog](https://www.swi-prolog.org/Download.html) (on machine) |
 | 07 	| Camel Cards						| **OCaml**			| :heavy_ckeck_mark:	| [OCaml](https://ocaml.org/) (on machine) |
+| 08	| Haunted Wasteland					| **R**				| :heavy_check_mark:	| [Rscript](https://cran.r-project.org/) (on machine) |
 
-## Warnings
+## <a name="long"></a> Long execution
 
 Depending on the input, some days may take a long time to run (more than 1 minute). I have done everything I could to limit the memory usage for these days to 2 gigs of RAM.
 
@@ -52,3 +55,4 @@ I **strongly** advise not to run these days with the input file if you do not ne
 These days are : 
 
 - **Day 05** : If You Give A Seed A Fertilizer (for some inputs)
+- **Day 08** : Haunted Wasteland (for all inputs)
