@@ -7,8 +7,8 @@ test () {
 
   for d in $@
   do
-    echo "== Testing $d =="
     d=${d::-1}
+    echo "== Testing $d =="
     cd $d
     if [ -f "test.sh" ]
     then

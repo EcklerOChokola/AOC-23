@@ -45,6 +45,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 06	| Wait For It						| **SWI-Prolog**	| :heavy_check_mark:	| [SWI-Prolog](https://www.swi-prolog.org/Download.html) (on machine) |
 | 07 	| Camel Cards						| **OCaml**			| :heavy_check_mark:	| [OCaml](https://ocaml.org/) (on machine) |
 | 08	| Haunted Wasteland					| **R**				| :heavy_check_mark:	| [Rscript](https://cran.r-project.org/) (on machine) |
+| 09 	| Mirage Maintenance				| **julia**			| :heavy_check_mark:	| [julia](https://julialang.org/downloads/platform/) (on machine) |
 
 ## <a name="long"></a> Long execution
 
