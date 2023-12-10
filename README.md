@@ -22,7 +22,7 @@ On the other hand, I haven't even bothered to try to make some languages run on 
 Tooling informations can be found in the last column of the table in the [languages](#languages) section. Some tweaks may be needed for some online tools, which will be written on top of the programs.
 
 ## Tests
-When achievable on my machine, I will try to put a few tests for the day. These will represent how I tried to find edge-cases for my algorithm.
+When achievable on my machine, I will try to put a few tests for the day. These will represent how I tried to find edge-cases for my algorithm and the examples that were given for the day.
 
 Each folder that I have implemented tests for will have :
 
@@ -46,6 +46,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 07 	| Camel Cards						| **OCaml**			| :heavy_check_mark:	| [OCaml](https://ocaml.org/) (on machine) |
 | 08	| Haunted Wasteland					| **R**				| :heavy_check_mark:	| [Rscript](https://cran.r-project.org/) (on machine) |
 | 09 	| Mirage Maintenance				| **julia**			| :heavy_check_mark:	| [julia](https://julialang.org/downloads/platform/) (on machine) |
+| 10	| Pipe Maze							| **php** 			| :heavy_check_mark:	| [php](https://www.php.net/) (on machine) |
 
 ## <a name="long"></a> Long execution
 
