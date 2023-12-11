@@ -47,6 +47,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 08	| Haunted Wasteland					| **R**				| :heavy_check_mark:	| [Rscript](https://cran.r-project.org/) (on machine) |
 | 09 	| Mirage Maintenance				| **julia**			| :heavy_check_mark:	| [julia](https://julialang.org/downloads/platform/) (on machine) |
 | 10	| Pipe Maze							| **php** 			| :heavy_check_mark:	| [php](https://www.php.net/) (on machine) |
+| 11	| Cosmic Expansion					| **Go**			| :heavy_check_mark:	| [go](https://go.dev/) (on machine) |
 
 ## <a name="long"></a> Long execution
 
