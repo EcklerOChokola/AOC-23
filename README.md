@@ -48,6 +48,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 09 	| Mirage Maintenance				| **julia**			| :heavy_check_mark:	| [julia](https://julialang.org/downloads/platform/) (on machine) |
 | 10	| Pipe Maze							| **php** 			| :heavy_check_mark:	| [php](https://www.php.net/) (on machine) |
 | 11	| Cosmic Expansion					| **Go**			| :heavy_check_mark:	| [go](https://go.dev/) (on machine) |
+| 12	| Hot Springs						| **Lua**			| :heavy_check_mark:	| [lua](https://www.lua.org/) (on machine) |
 
 ## <a name="long"></a> Long execution
 
@@ -58,4 +59,9 @@ I **strongly** advise not to run these days with the input file if you do not ne
 These days are : 
 
 - **Day 05** : If You Give A Seed A Fertilizer (for some inputs)
+- **Day 06** : Wait For It (for all inputs)
 - **Day 08** : Haunted Wasteland (for all inputs)
+
+## Credits 
+
+I do not own any input, example or exercise of the Advent Of Code. The inputs that can be found in this repository are only used for testing purposes, and should not be in any way considered mines. 
