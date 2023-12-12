@@ -35,4 +35,9 @@ test () {
   fi
 }
 
-test $(ls -d ./test_data/* | cat)
+if [[ $* == *--all* ]]
+then 
+	test $(ls -d ./test_data/* | cat)
+else
+	exit 2
+fi
