@@ -49,6 +49,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 10	| Pipe Maze							| **php** 			| :heavy_check_mark:	| [php](https://www.php.net/) (on machine) |
 | 11	| Cosmic Expansion					| **Go**			| :heavy_check_mark:	| [go](https://go.dev/) (on machine) |
 | 12	| Hot Springs						| **Lua**			| :heavy_check_mark:	| [lua](https://www.lua.org/) (on machine) |
+| 13	| Point of Incidence				| **C**				| :heavy_check_mark:	| [C](https://en.cppreference.com/w/c/language) (on machine) |
 
 ## <a name="long"></a> Long execution
 
