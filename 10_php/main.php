@@ -100,28 +100,14 @@ function selecting_array($pos, $from, $values, $departure) {
 }
 
 function key_from_dirs($from, $to) {
-	switch (implode("", array($from, $to))) {
-		case 'SS':
-		case 'NN':
-			return '|';
-		case 'EE':
-		case 'WW':
-			return '-';
-		case 'NW':
-		case 'ES':
-			return 'L';
-		case 'NE':
-		case 'WS':
-			return 'J';
-		case 'SW':
-		case 'EN':
-			return 'F';
-		case 'SE':
-		case 'WN':
-			return '7';
-		default:
-			break;
-	}
+	return match(implode("", array($from, $to))) {
+		'SS', 'NN' => '|',
+		'EE', 'WW' => '-',
+		'NW', 'ES' => 'L',
+		'NE', 'WS' => 'J',
+		'SW', 'EN' => 'F',
+		'SE', 'WN' => '7'
+	};
 }
 
 function filter_by_array($arr, $select, $default, $from, $to) {
