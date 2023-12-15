@@ -51,6 +51,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 12	| Hot Springs						| **Lua**			| :heavy_check_mark:	| [lua](https://www.lua.org/) (on machine) |
 | 13	| Point of Incidence				| **C**				| :heavy_check_mark:	| [C](https://en.cppreference.com/w/c/language) (on machine) |
 | 14 	| Parabolic Reflector Dish			| **Pascal**		| :heavy_check_mark:	| [Pascal](https://www.freepascal.org/) (on machine) |
+| 15 	| Lens Library						| **Zig**			| :heavy_check_mark:	| [Zig](https://ziglang.org/) (on machine) |
 
 ## <a name="long"></a> Long execution
 
