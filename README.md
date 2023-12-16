@@ -52,6 +52,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 13	| Point of Incidence				| **C**				| :heavy_check_mark:	| [C](https://en.cppreference.com/w/c/language) (on machine) |
 | 14 	| Parabolic Reflector Dish			| **Pascal**		| :heavy_check_mark:	| [Pascal](https://www.freepascal.org/) (on machine) |
 | 15 	| Lens Library						| **Zig**			| :heavy_check_mark:	| [Zig](https://ziglang.org/) (on machine) |
+| 16 	| The Floor Will Be Lava			| **Nim**			| :heavy_check_mark:	| [Nim](https://nim-lang.org/) (on machine) |
 
 ## <a name="long"></a> Long execution
 

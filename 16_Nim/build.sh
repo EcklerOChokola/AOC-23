@@ -1,0 +1,1 @@
+nim --verbosity:0 --outdir:build c main.nim
