@@ -54,6 +54,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 15 	| Lens Library						| **Zig**			| :heavy_check_mark:	| [Zig](https://ziglang.org/) (on machine) |
 | 16 	| The Floor Will Be Lava			| **Nim**			| :heavy_check_mark:	| [Nim](https://nim-lang.org/) (on machine) |
 | 17	| Clumsy Crucible					| **Fortran90**		| :heavy_check_mark:	| [Fortran](https://fortran-lang.org/) (on machine) |
+| 18 	| Lavaduct Lagoon					| **Ruby**			| :heavy_check_mark:	| [Ruby](https://www.ruby-lang.org) (on machine) |
 
 ## <a name="long"></a> Long execution
 
