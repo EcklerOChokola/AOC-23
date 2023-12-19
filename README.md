@@ -55,6 +55,7 @@ By default, [days with long execution](long), are not tested by the main test sc
 | 16 	| The Floor Will Be Lava			| **Nim**			| :heavy_check_mark:	| [Nim](https://nim-lang.org/) (on machine) |
 | 17	| Clumsy Crucible					| **Fortran90**		| :heavy_check_mark:	| [Fortran](https://fortran-lang.org/) (on machine) |
 | 18 	| Lavaduct Lagoon					| **Ruby**			| :heavy_check_mark:	| [Ruby](https://www.ruby-lang.org) (on machine) |
+| 19	| Aplenty 							| **Kotlin**		| :heavy_check_mark:	| [Kotlin](https://kotlinlang.org/docs/command-line.html) (on machine) |
 
 ## <a name="long"></a> Long execution
 
@@ -67,6 +68,7 @@ These days are :
 - **Day 05** : If You Give A Seed A Fertilizer (for some inputs)
 - **Day 06** : Wait For It (for all inputs)
 - **Day 08** : Haunted Wasteland (for all inputs)
+- **Day 19** : Aplenty (only on compilation, faster after the first run)
 
 ## Credits 
 
